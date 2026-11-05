@@ -1,0 +1,41 @@
+{
+  "name": "@local/dsh-soul-memory",
+  "version": "1.1.2",
+  "private": true,
+  "description": "Persistent SOUL.md identity, USER.md profile, MEMORY.md notes, evolvable skills, and a sidebar-launched editor for DeepSeek Harness",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "store.js",
+    "skills.js",
+    "command.js",
+    "evolve.js",
+    "editor.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "client.ui-shell.js"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "license": "MIT"
+}

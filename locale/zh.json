@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "靈魂與記憶",
+    "description": "把 SOUL.md 人格、USER.md 使用者檔案與 MEMORY.md 長期記憶注入每個工作階段，並提供 memory 工具與 /memory 指令。"
+  }
+}

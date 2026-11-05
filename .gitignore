@@ -1,0 +1,24 @@
+# Source-only repository: never stage runtime identity or memory.
+SOUL.md
+USER.md
+MEMORY.md
+memories/
+skills/
+evolved/
+.backups/
+.dsh/
+.hermes/
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+node_modules/
+dist/
+coverage/
+*.log
+*.tmp
+*.tgz
+test/ui-shell-browser.py
+.DS_Store
+Thumbs.db

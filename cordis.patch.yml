@@ -1,0 +1,4 @@
+- insert:
+    - id: soul-memory
+      name: '@local/dsh-soul-memory'
+      config: {}
